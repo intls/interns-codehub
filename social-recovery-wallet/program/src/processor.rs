@@ -484,7 +484,7 @@ impl Processor {
                 }
                 msg!("amount: {}", amount);
 
-                msg!("transfering mint...");
+                msg!("transferring mint...");
                 let transfer_ix = transfer(
                     token_program_info.key,
                     old_token_account_info.key,
