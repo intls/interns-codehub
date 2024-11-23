@@ -264,7 +264,7 @@ const RecoverBox = ({ old_pk }: { old_pk: PublicKey }) => {
         })
       );
 
-      console.log("Transfering native SOL...");
+      console.log("Transferring native SOL...");
       const transfer_sol_txid = await sendAndConfirmTransactionWithAccount(
         connection,
         transferSOLTx,
@@ -280,7 +280,7 @@ const RecoverBox = ({ old_pk }: { old_pk: PublicKey }) => {
       );
 
       /* TRANSACTION: Transfer and close all token accounts */
-      console.log("Transfering and closing...");
+      console.log("Transferring and closing...");
       const transfer_txid = await sendAndConfirmTransactionWithAccount(
         connection,
         transferCloseTx,
