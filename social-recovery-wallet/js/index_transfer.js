@@ -373,7 +373,7 @@ const main = async () => {
   transferTx.add(transferIx);
 
   // transfer and close
-  console.log("Transfering...");
+  console.log("Transferring...");
   txid = await sendAndConfirmTransaction(connection, transferTx, [feePayer], {
     skipPreflight: true,
     preflightCommitment: "confirmed",
