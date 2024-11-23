@@ -2279,7 +2279,7 @@ mod swap_error_tests {
     /// limit,c2...|____________|_________________|____c1__________|
     ///
     /// Expectation:
-    /// Fail on InvalidTickSequence as the tick-range is insufficent for the trade request.
+    /// Fail on InvalidTickSequence as the tick-range is insufficient for the trade request.
     fn insufficient_tick_array_range_test_a_to_b() {
         let swap_test_info = SwapTestFixture::new(SwapTestFixtureInfo {
             tick_spacing: TS_8,
@@ -2307,7 +2307,7 @@ mod swap_error_tests {
     /// |__c1__________|_________________|______________|...limit,c2
     ///
     /// Expectation:
-    /// Fail on InvalidTickSequence as the tick-range is insufficent for the trade request.
+    /// Fail on InvalidTickSequence as the tick-range is insufficient for the trade request.
     fn insufficient_tick_array_range_test_b_to_a() {
         let swap_test_info = SwapTestFixture::new(SwapTestFixtureInfo {
             tick_spacing: TS_8,
