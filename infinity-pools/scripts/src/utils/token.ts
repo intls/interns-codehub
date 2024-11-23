@@ -183,7 +183,7 @@ export async function createAndMintToTokenAccount(
  *
  * @param provider
  * @param mint
- * @param amount Amount to mint without decimals multipled. For example, 100 to mint 100 SOL.
+ * @param amount Amount to mint without decimals multiplied. For example, 100 to mint 100 SOL.
  * @param destinationWallet Receiver of the tokens. Defaults to the provider's wallet.
  * @param payer Pays for transactions and rent. Defaults to the provider's wallet.
  * @returns
