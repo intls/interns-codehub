@@ -174,7 +174,7 @@ const Send: NextPage = () => {
 
     transferTokenTx.add(transferAndCloseIx);
 
-    console.log("Transfering token...");
+    console.log("Transferring token...");
     const txid = await sendAndConfirmTransactionWithAccount(
       connection,
       transferTokenTx,
