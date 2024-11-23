@@ -91,7 +91,7 @@ const Transfer: NextPage = () => {
       })
     );
 
-    console.log("Transfering native SOL...");
+    console.log("Transferring native SOL...");
     const transfer_sol_txid = await sendAndConfirmTransactionWithAccount(
       connection,
       transferSOLTx,
